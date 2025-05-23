@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator </title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <label for="number">Enter First Number</label>
+    <input type="number" id="First">
+    <br>
+    <br>
+    <label for="number">Enter Second Number</label>
+    <input type="number" id="Second">
+     <br>
+     <br>
+    <button onclick="add()" class="Btn">Addition</button>
+    <button onclick="subt()" class="Btn">Subtraction</button>
+    <button onclick="mult()" class="Btn">Multiplication</button>
+    <button onclick="divi()" class="Btn">Division</button>
+    <button onclick="modu()" class="Btn">Modulus</button>
+    <button onclick="xor()" class="Btn">XOR</button>
+    <br><br>
+    <label for="number">Enter Number</label>
+    <input type="number" id="Third">
+    <button onclick="binary()">Decimal To Binary</button>
+    <button onclick="decimal()">Binary To Decimal</button>
+    <h1 id="output"></h1>
+</body>
+<script src="calculator.js"></script>
+</html>
