@@ -1,3 +1,43 @@
-.Btn{
-    margin-right: 5px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.calc-btn {
+  all: unset; 
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  background-color: white;
+  color: #007bff;
+  font-weight: bold;
+  border-radius: 5px;
+   cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  margin-left: 2rem;
+  display: inline-block;
+}
+.calc-btn:hover {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.1);
+}
+
+.custom-navbar {
+  background-color: black !important;
+  border-bottom: 3px solid #28a745;
+}
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link,
+.custom-navbar .dropdown-item {
+  color: white !important;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .dropdown-item:hover {
+  color: #28a745 !important;
+}
+label {
+      margin-left: 2rem;
+}
+input{
+    margin-left: 1rem;
 }
