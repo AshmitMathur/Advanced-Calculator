@@ -2,6 +2,16 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+  background: url('https://www.transparenttextures.com/patterns/black-linen.png');
+  background-color: #222;
+  color: white;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
 .calc-btn {
   all: unset; 
   padding: 0.5rem 0.8rem;
@@ -65,5 +75,8 @@ input{
   margin-right: 1.3rem;
 }
 #Second{
-  margin-right: 30rem;
+  margin-right: 2rem;
+}
+#res{
+  margin-right: 26rem;
 }
