@@ -26,6 +26,7 @@
 <input type="number" id="First">
 <label for="Second">Enter Second Number</label>
 <input type="number" id="Second">
+<button onclick="useresult()" class="calc-btn bb" id="res">Use Result
 <button onclick="clearinput()"class="calc-btn rr">Clear</button>
 <br>
 <button onclick="add()" class="calc-btn aa">Addition</button>
@@ -35,13 +36,13 @@
 <button onclick="modu()" class="calc-btn aa">Modulus</button>
 <button onclick="xor()" class="calc-btn aa">XOR</button>
 <button onclick="switches()" class="calc-btn cc">Switch Number</button>
-    <br>
-    <button onclick="useresult()" class="calc-btn bb">Use Result
+    <!-- <br> -->
     </button>
     <br>
     <label for="Third">Enter Number</label>
     <input type="text" id="Third">
-    <br><br>
+    <button onclick="usresult()" class="calc-btn bb">Use Result</button>
+    <br>
     <button onclick="decimaltobinary()" class="calc-btn aa">Decimal To Binary</button>
     <button onclick="decimaltooctal()" class="calc-btn aa">Decimal To Octal</button>
     <button onclick="decimaltohexa()" class="calc-btn aa">Decimal To hexatodecimal</button>
@@ -54,9 +55,29 @@
     <button onclick="hexatodecimal()" class="calc-btn aa">Hexatodecimal To Decimal</button>
     <button onclick="hexatobinary()" class="calc-btn aa">HexaDecimal To Binary</button>
     <button onclick="hextooctal()" class="calc-btn aa">HexaDecimal To Octal</button>
+    <button onclick="dectobas()" class="calc-btn aa">Decimal To Base3</button>
+    <button onclick="bastodec()" class="calc-btn aa">Base3 To Decimal</button>
+    <button onclick="dectobasn()" class="calc-btn aa">Decimal To Base k</button>
+    <button onclick="basntodec()" class="calc-btn aa">Base k To Decimal</button>
+    <!-- <br> -->
     <br>
-    <button onclick="usresult()" class="calc-btn bb">Use Result</button>
+    <label for="fourth">Enter Temperature</label>
+    <input type="number" id="fourth">
+    <button onclick="ustresult()" class="calc-btn bb">Use Result</button>
     <br>
+    <button onclick="celtofar()" class="calc-btn aa">Celsius To Farenheit</button>
+    <button onclick="celtokel()" class="calc-btn aa">Celsius To Kelvin</button>
+    <button onclick="fartocel()" class="calc-btn aa">Farenheit To Celsius</button>
+    <button onclick="fartokel()" class="calc-btn aa">Farenheit To Kelvin</button>
+    <button onclick="keltocel()" class="calc-btn aa">Kelvin To Celsius</button>
+    <button onclick="keltofar()" class="calc-btn aa">Kelvin To Farenheit</button>
+    <br>
+    <label for="fifth">Enter Distance</label>
+    <input type ="number" id="fifth">
+    <button onclick="useeresult()" class="calc-btn bb">Use Result</button>
+    <br>
+    <button onclick="miltokil()" class="calc-btn aa">Mile To Kilometer</button>
+    <button onclick="kiltomil()" class="calc-btn aa">Kilometer To Mile</button>
     <div class="output"> 
       <h1 id="output"></h1>
     </div>
